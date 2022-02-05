@@ -46,6 +46,6 @@ do not delete the file just copy its content and go to your github acount and go
  #ok guys we complate adding our project to the github from now on when we want to update our project 
  # for example we make some changes on our project and we want to update the project on github
  # we have just to run these tow command
-    1 - git push
+    1 - git add .
     2 - git commit -am " type here something deferent form the old commant to see if the change is happed on your repo"
-    
+    3 - git push
