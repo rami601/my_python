@@ -1,7 +1,9 @@
 weclome to git steps for adding your repo (your project)to github
 
 first of all you need to have an acount on github and you need to download git tool on your computer
-
+after that run  "ssh-keygen" command on your terminal or cmd for gerating keys for ssh connection  after gerating the keys you will see the path where the keys has been saved go to 
+go to the path  usaully  C:\Users\</username>\.ssh     go to the path and you will find files  pick the file with the .pub extantion copy its content
+do not delete the file just copy its content and go to your github acount and go to your profile and then go to the setting page look for  SSH and GPG keys and then add the content that you copyed to the ssh key
 
 1- create a new repo on  your github  acount , when you create a new repo you will see commands make sure to save the commands under
     push an existing repository from the command line , you have to save because we will need them later for pushing our project
@@ -14,7 +16,7 @@ first of all you need to have an acount on github and you need to download git t
     git branch -M main
     git push -u origin main
 
-2- go to your project directory 
+2 - go to your project directory 
 
 3 -open the terminal in the main project directory
 
@@ -30,4 +32,20 @@ first of all you need to have an acount on github and you need to download git t
     
     1 - git add .                                  # the dot means everthing in this directory
     2 - git commit -am "type here any thing you want "
+
+6 - run the commands that you saved when you created the repo on github
+
+    1 - git remote add origin git@github.com:rami601/<repo name>.git
+    2 - git branch -M main       # be for you run this command you will see in  your terminal (main) or (master) if it was master changer ther command form git branch -M main to git branch -M master
+    3 - git push -u origin main  # and do the same thing for this command
+
+
+ #if you followed the steps right now you add your project to the github that we created you can go and check your repository on github
+ #if you did not see your project added to the repo try to refresh the page 
+
+ #ok guys we complate adding our project to the github from now on when we want to update our project 
+ # for example we make some changes on our project and we want to update the project on github
+ # we have just to run these tow command
+    1 - git push
+    2 - git commit -am " type here something deferent form the old commant to see if the change is happed on your repo"
     
