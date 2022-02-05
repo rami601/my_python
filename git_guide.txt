@@ -1,0 +1,33 @@
+weclome to git steps for adding your repo (your project)to github
+
+first of all you need to have an acount on github and you need to download git tool on your computer
+
+
+1- create a new repo on  your github  acount , when you create a new repo you will see commands make sure to save the commands under
+    push an existing repository from the command line , you have to save because we will need them later for pushing our project
+    to the repo that we just created 
+    the commands will look like these 
+                    |
+                   \|/
+                    |
+    git remote add origin git@github.com:rami601/<repo name>.git
+    git branch -M main
+    git push -u origin main
+
+2- go to your project directory 
+
+3 -open the terminal in the main project directory
+
+4 - run these command in the terminal for adding git path and setting the needed configeration for git
+
+    1 - git config --global user.name "Your Name"
+    2 - git config --global user.email "you@youraddress.com"
+    3 - git config --global push.default matching
+    4 - git config --global alias.co checkout
+    5 - git init
+
+5 - add the project to the git , these two command will decide which files will be push to github later
+    
+    1 - git add .                                  # the dot means everthing in this directory
+    2 - git commit -am "type here any thing you want "
+    
